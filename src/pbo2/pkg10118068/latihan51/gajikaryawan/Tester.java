@@ -49,6 +49,8 @@ public class Tester {
                 + manager.tunjanganJabatan(manager.getJabatan()));
         System.out.println("TUNJANGAN KEHADIRAN\t: "
                 + manager.tunjanganKehadiran(manager.getKehadiran()));
+        
+        System.out.println("\nGAJI TOTAL\t: " + manager.gajiTotal());
     }
     
 }
